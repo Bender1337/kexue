@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-02-22 22:43:05
+# 创建时间：2023-02-22 22:44:30
 # 使用模版：ACL4SSR.ini
 # 节点数量：50
 ####################################
@@ -62,8 +62,6 @@ proxies:
   - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本","type":"vmess","server":"223.111.202.139","port":63086,"cipher":"auto","uuid":"9a5dc02b-8adc-3529-9163-ab690f38fbb6","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mugua","headers":{"host":"jp-balancer.myn1des.com"}}}
   - {"name":"🇮🇹_IT_意大利","type":"vmess","server":"129.152.13.117","port":11691,"cipher":"auto","uuid":"52768552-c2b2-4460-89f1-e740cc145b99","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws-path","headers":{"host":"YTB-awkj"}}}
   - {"name":"🇹🇷_TR_土耳其","type":"vmess","server":"2.59.181.37","port":443,"cipher":"auto","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
-  - {"name":"🇨🇳_CN_中国_2","type":"ssr","server":"z3002.security-cloudfront-cdn.com","port":42833,"password":"YpX2opBbrfqJzzMs","cipher":"aes-256-cfb","obfs":"http_simple","protocol":"origin","obfs-param":"www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive"}
-  - {"name":"🇨🇳_CN_中国_3","type":"vmess","server":"36.134.16.190","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
   - {"name":"🇺🇸_US_美国_12","type":"vmess","server":"lg1.trump2023.us","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
   - {"name":"🇭🇰_HK_香港_4","type":"vmess","server":"8.218.58.199","port":44200,"cipher":"auto","uuid":"815705a3-056e-4dbd-86c0-25d212144365","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
   - {"name":"🇺🇸_US_美国_13","type":"vmess","server":"172.67.203.162","port":443,"cipher":"auto","uuid":"c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/AUIKN8AU","headers":{"host":"oplg1.cfcdn2.xyz"}}}
