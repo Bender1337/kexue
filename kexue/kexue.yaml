@@ -31,6 +31,17 @@ proxies:
   - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"173.245.59.168","port":8080,"cipher":"auto","uuid":"27848739-7e62-4138-9fd3-938a63964b6b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/KTR","headers":{"host":"4.arvanktbr.store"}}}
   - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"ny1.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
   - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾_2","type":"ss","server":"out.jijifun.com","port":30033,"password":"114514","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","type":"ss","server":"out.jijifun.com","port":30043,"password":"114514","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国_2","type":"ss","server":"out.jijifun.com","port":30042,"password":"114514","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_1","type":"ss","server":"out.jijifun.com","port":30053,"password":"114514","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_2","type":"ss","server":"out.jijifun.com","port":30052,"password":"114514","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇳_CN_中国->🇹🇼_TW_台湾","type":"ss","server":"out.jijifun.com","port":30032,"password":"114514","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本_3","type":"vmess","server":"b2f37b8.v9.gladns.com","port":3331,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇭🇰_HK_香港_1","type":"vmess","server":"8.218.178.58","port":53207,"cipher":"auto","uuid":"9930e472-959f-4649-aa19-09354073fabc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
+  - {"name":"🇭🇰_HK_香港_2","type":"vmess","server":"8.218.184.30","port":25800,"cipher":"auto","uuid":"af6d7eb3-c0e5-4bd8-b650-5ffd299be97c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
+  - {"name":"🇭🇰_HK_香港_3","type":"vmess","server":"8.218.182.129","port":27191,"cipher":"auto","uuid":"a7be7873-3f6f-4aec-a24d-dba051e3283a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
+  - {"name":"🇭🇰_HK_香港_4","type":"vmess","server":"47.243.174.8","port":26234,"cipher":"auto","uuid":"2f0e176d-c1a4-4672-90cb-e81a80c7e684","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
+  - {"name":"🇭🇰_HK_香港_5","type":"vmess","server":"8.218.180.44","port":30840,"cipher":"auto","uuid":"99ac8983-3728-4302-a5e7-171099928c00","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
